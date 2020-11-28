@@ -1,0 +1,20 @@
+.statistics{
+    width: 512px;
+}
+.list {
+    list-style: none;
+    display: flex;
+}
+.title{
+    width: 512px;
+    line-height: 1.5;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:center;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}

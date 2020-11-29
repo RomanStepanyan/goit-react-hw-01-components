@@ -1,0 +1,10 @@
+.item{
+    list-style: none;
+    display: flex;
+}
+.status{
+    display:block;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+}

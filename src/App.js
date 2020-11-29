@@ -5,6 +5,9 @@ import Statistics from './сomponents/Statistics/Statistics'
 import statisticalData from './statistical-data.json'
 import FriendList from './сomponents/FriendList/FriendList'
 import friends from './friends.json'
+import TransactionHistory from './сomponents/TransactionHistory/TransactionHistory'
+import transactions from './transactions.json'
+
 
 export default function App(){
   return(
@@ -17,17 +20,12 @@ export default function App(){
     followers = {user.stats.followers}
     views = {user.stats.views}
     likes = {user.stats.likes}
-    />
-
-  
+    />  
     <Statistics 
     stats = {statisticalData}     
     />
-
     <FriendList  friends = {friends}/>
-  
-  
-  </div>
-  
+    <TransactionHistory items={transactions} />  
+  </div>  
   ) 
 };

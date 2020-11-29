@@ -1,0 +1,23 @@
+.transactionHistory{
+    width: 512px;
+}
+
+.headTitle{
+    width: 33%;
+    color:ivory;
+    font-size: 22px;
+    line-height: 2;
+    background-color: #00cccc;
+}
+
+.row{
+    text-align: center;    
+    line-height: 2;
+}
+.tbody .row:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.type{
+    text-transform: capitalize;
+}
